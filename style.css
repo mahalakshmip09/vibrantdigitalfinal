@@ -12,6 +12,8 @@
       --accent: #d4531a;
       --accent-light: #f5e8e2;
       --accent-dark: #b8410f;
+      --light-green: #07ac4c;
+      --dark-green: #04612b;
       --gold: #c9a84c;
       --gold-light: #f7f0de;
       --shadow-sm: 0 2px 12px rgba(26,23,20,0.07);
@@ -90,9 +92,9 @@
     }
     .nav-links a:hover { background: var(--accent-light); color: var(--accent); }
     .nav-cta {
-      background: var(--accent) !important; color: white !important; padding: 9px 20px !important; border-radius: 8px !important;
+      background: var(--light-green) !important; color: white !important; padding: 9px 20px !important; border-radius: 8px !important;
     }
-    .nav-cta:hover { background: var(--accent-dark) !important; color: white !important; }
+    .nav-cta:hover { background: var(--dark-green) !important; color: white !important; }
     .nav-hamburger {
       display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 8px;
     }
@@ -144,10 +146,10 @@
     .hero-actions { display: flex; gap: 16px; flex-wrap: wrap; }
     .btn-primary {
       display: inline-flex; align-items: center; gap: 10px;
-      background: var(--accent); color: white;
+      background: var(--light-green); color: white;
       padding: 14px 28px; border-radius: 10px;
       font-weight: 600; font-size: 0.95rem; transition: var(--transition);
-      border: 2px solid var(--accent);
+      border: 2px solid var(--light-green);
     }
     .btn-primary:hover { background: var(--accent-dark); border-color: var(--accent-dark); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(212,83,26,0.35); }
     .btn-secondary {
@@ -355,7 +357,7 @@
     }
     .form-textarea { resize: vertical; min-height: 110px; }
     .btn-submit {
-      width: 100%; padding: 14px; background: var(--accent); color: white;
+      width: 100%; padding: 14px; background: var(--light-green); color: white;
       border: none; border-radius: 10px; font-family: 'DM Sans', sans-serif;
       font-size: 0.95rem; font-weight: 600; cursor: pointer; transition: var(--transition);
       display: flex; align-items: center; justify-content: center; gap: 10px;
